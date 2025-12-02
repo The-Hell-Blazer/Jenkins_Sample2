@@ -10,8 +10,7 @@ def update_memlay():
 
     with open(file_path, "r") as f:
         content = f.read()
-
-    # 🔥 FIXED REGEX (only change made)
+        
     updated_content = re.sub(
         r"#define\s+STUBBING_ACTIVE\s+0",
         "#define STUBBING_ACTIVE 1",
