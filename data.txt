@@ -1,0 +1,5 @@
+# ECU Data Configuration
+SoftwareName = ABC_Controller
+Variant = V1.4
+BSW = N851
+Release = 2025.01
