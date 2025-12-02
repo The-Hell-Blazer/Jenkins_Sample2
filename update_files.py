@@ -20,7 +20,7 @@ def update_memlay():
     with open(file_path, "w") as f:
         f.write(updated_content)
 
-    print("✔ Updated memlay.h successfully")
+    print("[OK] Updated memlay.h successfully")
     return True
 
 
@@ -43,7 +43,7 @@ def update_data():
     with open(file_path, "w") as f:
         f.write(updated_content)
 
-    print("✔ Updated data.txt successfully")
+    print("[OK] Updated data.txt successfully")
     return True
 
 
@@ -54,6 +54,6 @@ if __name__ == "__main__":
     ok2 = update_data()
 
     if ok1 and ok2:
-        print("✔ File modifications completed.")
+        print("[OK] File modifications completed.")
     else:
-        print("⚠ Some files were not updated.")
+        print("[WARN] Some files were not updated.")
