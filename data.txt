@@ -1,4 +1,4 @@
-# ECU Data Configuration
+# Sample ECU Data Configuration
 SoftwareName = ABC_Controller
 Variant = V1.4
 BSW = N851
